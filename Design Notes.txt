@@ -1,0 +1,29 @@
+PCB Design Notes 
+Updated: 9/21/2020
+
+ADC
+	Internal ADC limited to 2600mV despite datasheet saying its capable of 3900mV
+	Noisy, recommend 0.1uF per ADC input pin
+	Might be better to use an external I2C/SPI ADC if higher precision reqd.
+	
+
+PCB Reqs
+	Need BT in next rev (different ESP32-S2 PN)
+	Smaller Vreg/Cheaper?
+	Confirm holes sized for specific screw sizes
+	Add 0.1uF on some ADC pins to test	
+
+	
+PCB Fixes
+	C1/C5 ref des issue (fixed?)
+	C1/C5 silkscreen off of vias
+	Replace S1 with a switch that isnt dog shit
+	CHIP_EN circuit needs pull-up and possible discharge circuit, reference datasheet
+		https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf (page 20-21)
+	Get rid of JTAG/USB headers
+	Get slide switch for boot mode instead of jumper
+	Actually order DC jack or get a smaller power input connector, rated max ~600-800mA
+	External ADC, SPI/I2C, 8 CH
+	Better noise mitigation strategies, lots of noise on ADC pins in current rev. 
+	
+	
