@@ -12,6 +12,7 @@ PCB Reqs
 	Smaller Vreg/Cheaper?
 	Confirm holes sized for specific screw sizes
 	Add 0.1uF on some ADC pins to test	
+	Add I2C ports/headers
 
 	
 PCB Fixes
