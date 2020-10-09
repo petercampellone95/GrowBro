@@ -27,4 +27,6 @@ PCB Fixes
 	External ADC, SPI/I2C, 8 CH
 	Better noise mitigation strategies, lots of noise on ADC pins in current rev. 
 	
-	
+PCB Assembly
+	Options: Buy reflow oven $200-400
+	Use EasyEDA: Have JLCPCB assemble
