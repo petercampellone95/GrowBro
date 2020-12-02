@@ -1,8 +1,8 @@
 # GrowBro
 
-Automated tomato growing PCBs, Yeet!~
+Automated wireless plant growing solution BLE+WiFi(WIP)
 
-To get started:
+To get started with development:
 
 ESP32 IDF Setup (More complicated to build and setup, full functionality: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html
 
